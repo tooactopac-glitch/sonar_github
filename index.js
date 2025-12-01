@@ -1,7 +1,7 @@
 function sum(a,b) {
     return a + b;
 }
-function echo(param,param){
+function echo(param){
     return param;
 }
 
@@ -77,3 +77,6 @@ const b = {
     }
   ]
 }
+
+
+module.exports = {sum}

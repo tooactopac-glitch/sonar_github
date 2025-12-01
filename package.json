@@ -1,0 +1,23 @@
+{
+  "name": "sonar_github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooactopac-glitch/sonar_github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tooactopac-glitch/sonar_github/issues"
+  },
+  "homepage": "https://github.com/tooactopac-glitch/sonar_github#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
