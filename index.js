@@ -5,45 +5,75 @@ function echo(param,param){
     return param;
 }
 
+
+
 const a = {
-  "project": {
-    "name": "BigProjectExample",
-    "version": "1.0.0",
-    "description": "This is a large JSON example for testing purposes",
-    "createdAt": "2025-12-01T20:00:00Z",
-    "maintainers": [
-      {
-        "name": "Alice Smith",
-        "email": "alice@example.com",
-        "roles": ["developer", "tester"]
-      },
-      {
-        "name": "Bob Johnson",
-        "email": "bob@example.com",
-        "roles": ["project manager"]
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "username": "alice_s",
+      "role": "admin",
+      "active": true,
+      "createdAt": "2025-01-15T08:30:00Z",
+      "profile": {
+        "age": 29,
+        "gender": "female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "USA"
+        },
+        "phoneNumbers": ["+1-555-1234", "+1-555-5678"],
+        "social": {
+          "twitter": "@alice_smith",
+          "linkedin": "alice-smith",
+          "github": "aliceGitHub"
+        },
+        "preferences": {
+          "newsletter": true,
+          "notifications": ["email", "sms"],
+          "language": "en"
+        }
       }
-    ]
-  }
+    }
+  ]
 }
-
-
 const b = {
-  "project": {
-    "name": "BigProjectExample",
-    "version": "1.0.0",
-    "description": "This is a large JSON example for testing purposes",
-    "createdAt": "2025-12-01T20:00:00Z",
-    "maintainers": [
-      {
-        "name": "Alice Smith",
-        "email": "alice@example.com",
-        "roles": ["developer", "tester"]
-      },
-      {
-        "name": "Bob Johnson",
-        "email": "bob@example.com",
-        "roles": ["project manager"]
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "username": "alice_s",
+      "role": "admin",
+      "active": true,
+      "createdAt": "2025-01-15T08:30:00Z",
+      "profile": {
+        "age": 29,
+        "gender": "female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "USA"
+        },
+        "phoneNumbers": ["+1-555-1234", "+1-555-5678"],
+        "social": {
+          "twitter": "@alice_smith",
+          "linkedin": "alice-smith",
+          "github": "aliceGitHub"
+        },
+        "preferences": {
+          "newsletter": true,
+          "notifications": ["email", "sms"],
+          "language": "en"
+        }
       }
-    ]
-  }
+    }
+  ]
 }
