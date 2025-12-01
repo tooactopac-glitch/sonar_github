@@ -5,7 +5,7 @@ function echo(param){
     return param;
     console.log(param)
 }
-
+eval()
 
 
 const a = {
