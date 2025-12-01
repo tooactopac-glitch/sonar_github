@@ -5,7 +5,7 @@ function echo(param){
     return param;
     console.log(param)
 }
-eval()
+
 
 
 const a = {
@@ -79,5 +79,9 @@ const b = {
   ]
 }
 
+
+function login(user, password) {
+    // code here
+}
 
 module.exports = {sum}
